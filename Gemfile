@@ -127,7 +127,7 @@ gem 'rufus-scheduler', '~> 3.4', require: false
 gem 'sass-rails', '>= 6.0'
 gem 'select2-rails'
 gem 'spectrum-rails'
-gem 'sprockets'
+gem 'sprockets', '>= 4.2.1'
 gem 'terser'
 gem 'typhoeus', '~> 1.3.1'
 gem 'uglifier', '~> 2.7.2'
