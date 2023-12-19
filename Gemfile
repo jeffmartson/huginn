@@ -120,7 +120,7 @@ gem 'mail', '>= 2.8.1'
 gem 'mini_magick', ">= 4.9.4"
 gem 'multi_xml'
 gem "nokogiri", ">= 1.10.8"
-gem 'omniauth'
+gem 'omniauth', '>= 2.1.2'
 gem 'rails', '~> 6.1.7'
 gem 'rails-html-sanitizer', '~> 1.2'
 gem 'rufus-scheduler', '~> 3.4', require: false
