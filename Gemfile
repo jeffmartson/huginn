@@ -168,7 +168,7 @@ group :development do
     gem 'rspec-mocks'
     gem 'rspec-rails'
     gem 'selenium-webdriver'
-    gem 'shoulda-matchers'
+    gem 'shoulda-matchers', '>= 6.0.0'
     gem 'simplecov', require: false
     gem 'simplecov-lcov', '~> 0.8.0', require: false
     gem 'vcr'
