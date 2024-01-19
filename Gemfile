@@ -79,7 +79,7 @@ gem 'aws-sdk-s3', '~> 1'
 
 # ImapFolderAgent
 gem 'gmail_xoauth' # support for Gmail using OAuth
-gem 'omniauth-google-oauth2', '>= 0.8.0'
+gem 'omniauth-google-oauth2', '>= 1.1.0'
 
 # Bundler <1.5 does not recognize :x64_mingw as a valid platform name.
 # Unfortunately, it can't self-update because it errors when encountering :x64_mingw.
@@ -120,7 +120,7 @@ gem 'mail', '>= 2.8.1'
 gem 'mini_magick', ">= 4.9.4"
 gem 'multi_xml'
 gem "nokogiri", ">= 1.10.8"
-gem 'omniauth'
+gem 'omniauth', '>= 2.1.2'
 gem 'rails', '~> 6.1.7'
 gem 'rails-html-sanitizer', '~> 1.2'
 gem 'rufus-scheduler', '~> 3.4', require: false
