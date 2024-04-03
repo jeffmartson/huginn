@@ -139,7 +139,7 @@ group :development do
   gem 'guard-livereload'
   gem 'guard-rspec'
   gem 'letter_opener_web', '~> 1.4' # 2.0+ requires Ruby 2.7
-  gem 'rack-livereload'
+  gem 'rack-livereload', '>= 0.6.0'
   gem 'web-console', '>= 3.3.0'
 
   gem 'capistrano'
