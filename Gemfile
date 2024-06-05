@@ -96,7 +96,7 @@ gem 'coffee-rails', '~> 5'
 gem 'daemons', '~> 1.1.9'
 gem 'delayed_job'
 gem 'delayed_job_active_record'
-gem 'devise', '~> 4.8'
+gem 'devise', '~> 4.9', '>= 4.9.3'
 gem 'em-http-request', '~> 1.1.2'
 gem 'execjs'
 gem 'faraday', '~> 1.0'
@@ -109,7 +109,7 @@ gem 'geokit-rails', '~> 2.3'
 gem 'httmultiparty', '~> 0.3.16'
 gem 'httparty', '~> 0.13'
 gem 'huginn_agent'
-gem 'jquery-rails', '~> 4.2.1'
+gem 'jquery-rails', '~> 4.3.0'
 gem 'json', '~> 2.3'
 gem 'jsonpath', '~> 1.1'
 gem 'kaminari', '~> 1.2'
@@ -121,7 +121,7 @@ gem 'mini_magick', ">= 4.9.4"
 gem 'multi_xml'
 gem "nokogiri", ">= 1.10.8"
 gem 'omniauth'
-gem 'rails', '~> 6.1.7'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.8'
 gem 'rails-html-sanitizer', '~> 1.2'
 gem 'rufus-scheduler', '~> 3.4', require: false
 gem 'sass-rails', '>= 6.0'
@@ -138,9 +138,9 @@ group :development do
   gem 'guard'
   gem 'guard-livereload'
   gem 'guard-rspec'
-  gem 'letter_opener_web', '~> 1.4' # 2.0+ requires Ruby 2.7
+  gem 'letter_opener_web', '~> 2.0', '>= 2.0.0' # 2.0+ requires Ruby 2.7
   gem 'rack-livereload'
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 4.2.1'
 
   gem 'capistrano'
   gem 'capistrano-bundler'
@@ -166,7 +166,7 @@ group :development do
     gem 'rspec-collection_matchers'
     gem 'rspec-html-matchers'
     gem 'rspec-mocks'
-    gem 'rspec-rails'
+    gem 'rspec-rails', '>= 6.0.3'
     gem 'selenium-webdriver'
     gem 'shoulda-matchers'
     gem 'simplecov', require: false
