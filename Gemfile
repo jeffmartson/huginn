@@ -123,7 +123,7 @@ gem "nokogiri", ">= 1.10.8"
 gem 'omniauth'
 gem 'rails', '~> 6.1.7'
 gem 'rails-html-sanitizer', '~> 1.2'
-gem 'rufus-scheduler', '~> 3.4', require: false
+gem 'rufus-scheduler', '~> 3.9', '>= 3.9.0', require: false
 gem 'sass-rails', '>= 6.0'
 gem 'select2-rails'
 gem 'spectrum-rails'
