@@ -146,9 +146,9 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
 
-  gem 'rubocop', require: false
+  gem 'rubocop', '>= 1.66.0', require: false
   gem 'rubocop-performance', require: false
-  gem 'rubocop-rspec', require: false
+  gem 'rubocop-rspec', '>= 3.0.0', require: false
 
   if_true(ENV['SPRING']) do
     gem 'spring'
