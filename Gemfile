@@ -48,7 +48,7 @@ gem 'weibo_2', github: 'albertsun/weibo_2', branch: 'master'
 
 # GoogleCalendarPublishAgent and GoogleTranslateAgent
 gem 'google-api-client', '~> 0.13'
-gem 'google-cloud-translate', '~> 2.0', require: 'google/cloud/translate'
+gem 'google-cloud-translate', '~> 3.0', '>= 3.0.0', require: 'google/cloud/translate'
 
 # Twitter Agents
 gem 'omniauth-twitter'
@@ -121,7 +121,7 @@ gem 'mini_magick', ">= 4.9.4"
 gem 'multi_xml'
 gem "nokogiri", ">= 1.10.8"
 gem 'omniauth'
-gem 'rails', '~> 6.1.7'
+gem 'rails', '~> 7.0.0'
 gem 'rails-html-sanitizer', '~> 1.2'
 gem 'rufus-scheduler', '~> 3.4', require: false
 gem 'sass-rails', '>= 6.0'
