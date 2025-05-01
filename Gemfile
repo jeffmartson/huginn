@@ -166,7 +166,7 @@ group :development do
     gem 'rspec-collection_matchers'
     gem 'rspec-html-matchers'
     gem 'rspec-mocks'
-    gem 'rspec-rails'
+    gem 'rspec-rails', '>= 8.0.0'
     gem 'selenium-webdriver'
     gem 'shoulda-matchers'
     gem 'simplecov', require: false
