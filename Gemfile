@@ -39,7 +39,7 @@ gem 'net-ftp'
 gem 'net-ftp-list'                # FtpsiteAgent
 gem 'rturk', '~> 2.12.1'          # HumanTaskAgent
 gem 'slack-notifier', '~> 1.0.0'  # SlackAgent
-gem 'twilio-ruby', '~> 5.62.0'    # TwilioAgent
+gem 'twilio-ruby', '~> 5.63.0' # TwilioAgent
 gem 'xmpp4r', '~> 0.5.6'          # JabberAgent
 
 # Weibo Agents
@@ -79,7 +79,7 @@ gem 'aws-sdk-s3', '~> 1'
 
 # ImapFolderAgent
 gem 'gmail_xoauth' # support for Gmail using OAuth
-gem 'omniauth-google-oauth2', '>= 0.8.0'
+gem 'omniauth-google-oauth2', '>= 1.1.0'
 
 # Bundler <1.5 does not recognize :x64_mingw as a valid platform name.
 # Unfortunately, it can't self-update because it errors when encountering :x64_mingw.
@@ -94,14 +94,14 @@ gem 'bootstrap-kaminari-views', '~> 0.0.3'
 gem 'bundler', '>= 1.5.0'
 gem 'coffee-rails', '~> 5'
 gem 'daemons', '~> 1.1.9'
-gem 'delayed_job'
-gem 'delayed_job_active_record'
-gem 'devise', '~> 4.8'
+gem 'delayed_job', '>= 4.1.12'
+gem 'delayed_job_active_record', '>= 4.1.8'
+gem 'devise', '~> 4.9', '>= 4.9.3'
 gem 'em-http-request', '~> 1.1.2'
 gem 'execjs'
 gem 'faraday', '~> 1.0'
 gem 'faraday_middleware'
-gem 'feedjira', '~> 3.1'
+gem 'feedjira', '~> 3.2', '>= 3.2.3'
 gem 'font-awesome-sass', '~> 4.7.0'
 gem 'foreman', '~> 0.87.2', github: 'ddollar/foreman'
 gem 'geokit', '~> 1.13'
@@ -109,38 +109,38 @@ gem 'geokit-rails', '~> 2.3'
 gem 'httmultiparty', '~> 0.3.16'
 gem 'httparty', '~> 0.13'
 gem 'huginn_agent'
-gem 'jquery-rails', '~> 4.2.1'
+gem 'jquery-rails', '~> 4.3.0'
 gem 'json', '~> 2.3'
 gem 'jsonpath', '~> 1.1'
 gem 'kaminari', '~> 1.2'
 gem 'kramdown'
 gem 'liquid', '~> 5.1'
-gem 'loofah', '~> 2.0'
+gem 'loofah', '~> 2.21', '>= 2.21.4'
 gem 'mail', '>= 2.8.1'
 gem 'mini_magick', ">= 4.9.4"
 gem 'multi_xml'
 gem "nokogiri", ">= 1.10.8"
-gem 'omniauth'
-gem 'rails', '~> 6.1.7'
-gem 'rails-html-sanitizer', '~> 1.2'
+gem 'omniauth', '>= 2.1.2'
+gem 'rails', '~> 7.1.0'
+gem 'rails-html-sanitizer', '~> 1.6', '>= 1.6.0'
 gem 'rufus-scheduler', '~> 3.4', require: false
 gem 'sass-rails', '>= 6.0'
 gem 'select2-rails'
 gem 'spectrum-rails'
-gem 'sprockets'
+gem 'sprockets', '>= 4.2.1'
 gem 'terser'
 gem 'typhoeus', '~> 1.3.1'
 gem 'uglifier', '~> 2.7.2'
 
 group :development do
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.10.1'
   gem 'binding_of_caller'
   gem 'guard'
   gem 'guard-livereload'
   gem 'guard-rspec'
-  gem 'letter_opener_web', '~> 1.4' # 2.0+ requires Ruby 2.7
-  gem 'rack-livereload'
-  gem 'web-console', '>= 3.3.0'
+  gem 'letter_opener_web', '~> 2.0', '>= 2.0.0' # 2.0+ requires Ruby 2.7
+  gem 'rack-livereload', '>= 0.5.2'
+  gem 'web-console', '>= 4.2.1'
 
   gem 'capistrano'
   gem 'capistrano-bundler'
@@ -157,7 +157,7 @@ group :development do
   end
 
   group :test do
-    gem 'capybara'
+    gem 'capybara', '>= 3.39.2'
     gem 'capybara-select-2', github: 'Hirurg103/capybara_select2', require: false
     gem 'puma'
     gem 'rails-controller-testing'
@@ -166,13 +166,13 @@ group :development do
     gem 'rspec-collection_matchers'
     gem 'rspec-html-matchers'
     gem 'rspec-mocks'
-    gem 'rspec-rails'
-    gem 'selenium-webdriver'
-    gem 'shoulda-matchers'
+    gem 'rspec-rails', '>= 6.0.3'
+    gem 'selenium-webdriver', '>= 4.10.0'
+    gem 'shoulda-matchers', '>= 6.0.0'
     gem 'simplecov', require: false
     gem 'simplecov-lcov', '~> 0.8.0', require: false
     gem 'vcr'
-    gem 'webmock'
+    gem 'webmock', '>= 3.19.0'
   end
 end
 
