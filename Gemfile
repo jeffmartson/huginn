@@ -95,7 +95,7 @@ gem 'bundler', '>= 1.5.0'
 gem 'coffee-rails', '~> 5'
 gem 'daemons', '~> 1.1.9'
 gem 'delayed_job'
-gem 'delayed_job_active_record'
+gem 'delayed_job_active_record', '>= 4.1.8'
 gem 'devise', '~> 4.8'
 gem 'em-http-request', '~> 1.1.2'
 gem 'execjs'
@@ -121,7 +121,7 @@ gem 'mini_magick', ">= 4.9.4"
 gem 'multi_xml'
 gem "nokogiri", ">= 1.10.8"
 gem 'omniauth'
-gem 'rails', '~> 6.1.7'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 gem 'rails-html-sanitizer', '~> 1.2'
 gem 'rufus-scheduler', '~> 3.4', require: false
 gem 'sass-rails', '>= 6.0'
