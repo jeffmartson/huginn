@@ -79,7 +79,7 @@ gem 'aws-sdk-s3', '~> 1'
 
 # ImapFolderAgent
 gem 'gmail_xoauth' # support for Gmail using OAuth
-gem 'omniauth-google-oauth2', '>= 0.8.0'
+gem 'omniauth-google-oauth2', '>= 1.1.0'
 
 # Bundler <1.5 does not recognize :x64_mingw as a valid platform name.
 # Unfortunately, it can't self-update because it errors when encountering :x64_mingw.
@@ -96,7 +96,7 @@ gem 'coffee-rails', '~> 5'
 gem 'daemons', '~> 1.1.9'
 gem 'delayed_job'
 gem 'delayed_job_active_record'
-gem 'devise', '~> 4.8'
+gem 'devise', '~> 4.9', '>= 4.9.3'
 gem 'em-http-request', '~> 1.1.2'
 gem 'execjs'
 gem 'faraday', '~> 1.0'
@@ -109,7 +109,7 @@ gem 'geokit-rails', '~> 2.3'
 gem 'httmultiparty', '~> 0.3.16'
 gem 'httparty', '~> 0.13'
 gem 'huginn_agent'
-gem 'jquery-rails', '~> 4.2.1'
+gem 'jquery-rails', '~> 4.3.0'
 gem 'json', '~> 2.3'
 gem 'jsonpath', '~> 1.1'
 gem 'kaminari', '~> 1.2'
@@ -120,35 +120,35 @@ gem 'mail', '>= 2.8.1'
 gem 'mini_magick', ">= 4.9.4"
 gem 'multi_xml'
 gem "nokogiri", ">= 1.10.8"
-gem 'omniauth'
-gem 'rails', '~> 6.1.7'
+gem 'omniauth', '>= 2.1.2'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.4'
 gem 'rails-html-sanitizer', '~> 1.2'
 gem 'rufus-scheduler', '~> 3.4', require: false
 gem 'sass-rails', '>= 6.0'
 gem 'select2-rails'
 gem 'spectrum-rails'
-gem 'sprockets'
+gem 'sprockets', '>= 4.2.1'
 gem 'terser'
 gem 'typhoeus', '~> 1.3.1'
 gem 'uglifier', '~> 2.7.2'
 
 group :development do
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.10.1'
   gem 'binding_of_caller'
   gem 'guard'
   gem 'guard-livereload'
   gem 'guard-rspec'
-  gem 'letter_opener_web', '~> 1.4' # 2.0+ requires Ruby 2.7
-  gem 'rack-livereload'
-  gem 'web-console', '>= 3.3.0'
+  gem 'letter_opener_web', '~> 2.0', '>= 2.0.0' # 2.0+ requires Ruby 2.7
+  gem 'rack-livereload', '>= 0.5.2'
+  gem 'web-console', '>= 4.2.1'
 
   gem 'capistrano'
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
 
-  gem 'rubocop', require: false
-  gem 'rubocop-performance', require: false
-  gem 'rubocop-rspec', require: false
+  gem 'rubocop', '>= 1.66.0', require: false
+  gem 'rubocop-performance', '>= 1.19.0', require: false
+  gem 'rubocop-rspec', '>= 2.23.0', require: false
 
   if_true(ENV['SPRING']) do
     gem 'spring'
@@ -157,7 +157,7 @@ group :development do
   end
 
   group :test do
-    gem 'capybara'
+    gem 'capybara', '>= 3.39.2'
     gem 'capybara-select-2', github: 'Hirurg103/capybara_select2', require: false
     gem 'puma'
     gem 'rails-controller-testing'
@@ -166,7 +166,7 @@ group :development do
     gem 'rspec-collection_matchers'
     gem 'rspec-html-matchers'
     gem 'rspec-mocks'
-    gem 'rspec-rails'
+    gem 'rspec-rails', '>= 6.0.3'
     gem 'selenium-webdriver'
     gem 'shoulda-matchers'
     gem 'simplecov', require: false
