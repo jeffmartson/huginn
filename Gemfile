@@ -116,7 +116,7 @@ gem 'kaminari', '~> 1.2'
 gem 'kramdown'
 gem 'liquid', '~> 5.1'
 gem 'loofah', '~> 2.0'
-gem 'mail', '>= 2.8.1'
+gem 'mail', '>= 2.9.0'
 gem 'mini_magick', ">= 4.9.4"
 gem 'multi_xml'
 gem "nokogiri", ">= 1.10.8"
