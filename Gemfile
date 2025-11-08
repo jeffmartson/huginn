@@ -34,7 +34,7 @@ gem 'forecast_io', '~> 2.0.0'     # WeatherAgent
 gem 'hipchat', '~> 1.2.0'         # HipchatAgent
 gem 'hypdf', bitbucket: 'knu/hypdf_gem', branch: 'uploadio_namespace' # PDFInfoAgent
 gem 'mini_racer'                  # JavaScriptAgent
-gem 'mqtt'                        # MQTTAgent
+gem 'mqtt'                        , '>= 0.7.0' # MQTTAgent
 gem 'net-ftp'
 gem 'net-ftp-list'                # FtpsiteAgent
 gem 'rturk', '~> 2.12.1'          # HumanTaskAgent
