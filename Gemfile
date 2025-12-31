@@ -31,7 +31,7 @@ end
 # then run `bundle` and commit the updated Gemfile and Gemfile.lock.
 gem 'erector', github: 'dsander/erector', branch: 'rails6'
 gem 'forecast_io', '~> 2.0.0'     # WeatherAgent
-gem 'hipchat', '~> 1.2.0'         # HipchatAgent
+gem 'hipchat', '~> 1.3.0' # HipchatAgent
 gem 'hypdf', bitbucket: 'knu/hypdf_gem', branch: 'uploadio_namespace' # PDFInfoAgent
 gem 'mini_racer'                  # JavaScriptAgent
 gem 'mqtt'                        # MQTTAgent
@@ -107,7 +107,7 @@ gem 'foreman', '~> 0.87.2', github: 'ddollar/foreman'
 gem 'geokit', '~> 1.13'
 gem 'geokit-rails', '~> 2.3'
 gem 'httmultiparty', '~> 0.3.16'
-gem 'httparty', '~> 0.13'
+gem 'httparty', '~> 0.24', '>= 0.24.0'
 gem 'huginn_agent'
 gem 'jquery-rails', '~> 4.2.1'
 gem 'json', '~> 2.3'
