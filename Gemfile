@@ -39,7 +39,7 @@ gem 'net-ftp'
 gem 'net-ftp-list'                # FtpsiteAgent
 gem 'rturk', '~> 2.12.1'          # HumanTaskAgent
 gem 'slack-notifier', '~> 1.0.0'  # SlackAgent
-gem 'twilio-ruby', '~> 5.62.0'    # TwilioAgent
+gem 'twilio-ruby', '~> 5.67.0' # TwilioAgent
 gem 'xmpp4r', '~> 0.5.6'          # JabberAgent
 
 # Weibo Agents
@@ -48,7 +48,7 @@ gem 'weibo_2', github: 'albertsun/weibo_2', branch: 'master'
 
 # GoogleCalendarPublishAgent and GoogleTranslateAgent
 gem 'google-api-client', '~> 0.13'
-gem 'google-cloud-translate', '~> 2.0', require: 'google/cloud/translate'
+gem 'google-cloud-translate', '~> 3.0', '>= 3.0.0', require: 'google/cloud/translate'
 
 # Twitter Agents
 gem 'omniauth-twitter'
@@ -79,7 +79,7 @@ gem 'aws-sdk-s3', '~> 1'
 
 # ImapFolderAgent
 gem 'gmail_xoauth' # support for Gmail using OAuth
-gem 'omniauth-google-oauth2', '>= 0.8.0'
+gem 'omniauth-google-oauth2', '>= 1.1.0'
 
 # Bundler <1.5 does not recognize :x64_mingw as a valid platform name.
 # Unfortunately, it can't self-update because it errors when encountering :x64_mingw.
@@ -99,7 +99,7 @@ gem 'delayed_job_active_record'
 gem 'devise', '~> 4.8'
 gem 'em-http-request', '~> 1.1.2'
 gem 'execjs'
-gem 'faraday', '~> 1.0'
+gem 'faraday', '~> 2.14', '>= 2.14.1'
 gem 'faraday_middleware'
 gem 'feedjira', '~> 3.1'
 gem 'font-awesome-sass', '~> 4.7.0'
